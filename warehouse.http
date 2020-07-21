@@ -1,0 +1,22 @@
+POST http://localhost:8080/stockItem
+Content-Type: application/json
+
+{"sku": "12345", "name": "Banane", "qty": 100}
+
+###
+
+
+
+POST http://localhost:8080/delivery
+Content-Type: application/json
+
+{"sku": "1234", "name": "Banane", "qty": 100}
+
+###
+
+POST http://localhost:8082/order
+Content-Type: application/json
+
+{"sku": "1234", "qty": 2000}
+###
+
