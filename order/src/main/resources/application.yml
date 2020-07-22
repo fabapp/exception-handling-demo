@@ -1,0 +1,14 @@
+warehouse.url: http://localhost:8080
+spring:
+  application:
+    name: order
+  output:
+    ansi:
+      enabled: always
+  profiles:
+    active: local
+
+management:
+  endpoint:
+    health:
+      show-details: always
